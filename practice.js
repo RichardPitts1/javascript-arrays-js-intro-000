@@ -9,7 +9,7 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 console.log(addElementToBeginningOfArray(chocolateBars, bar))
-
+  return [bar, ...chocolateBars]
 console.log(chocolateBars);
 
 
