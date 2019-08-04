@@ -7,6 +7,7 @@ function addElementToBeginningOfArray(array, element) {
   newArray[0] = element
   return newArray;
 }
+
 console.log(addElementToBeginningOfArray(chocolateBars, bar))
 
 console.log(chocolateBars);
