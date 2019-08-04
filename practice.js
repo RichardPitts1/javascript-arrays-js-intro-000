@@ -8,8 +8,9 @@ function addElementToBeginningOfArray(array, element) {
   return newArray;
 }
 
-console.log(addElementToBeginningOfArray(chocolateBars, bar))
+console.log(addElementToBeginningOfArray(chocolateBars, bar)) {
   return [bar, ...chocolateBars];
+}
 console.log(chocolateBars);
 
 
