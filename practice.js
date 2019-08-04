@@ -3,8 +3,9 @@ var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 var bar = "ProteinBar";
 
 function addElementToBeginningOfArray(array, element) {
-  array[0] = element
-  return array;
+  var newArray = array
+  newArray[0] = element
+  return newArray;
 }
 console.log(addElementToBeginningOfArray(chocolateBars, bar))
 
