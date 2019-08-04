@@ -29,4 +29,9 @@ console.log(addElementToBeginningOfArray(chocolateBars, bar));
 
 console.log(chocolateBars);
 
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  return array.
+}
+}
+
 
