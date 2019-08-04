@@ -13,5 +13,4 @@ console.log(chocolateBars);
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
   
-  
 }
