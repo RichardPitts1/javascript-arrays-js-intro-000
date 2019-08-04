@@ -4,7 +4,7 @@ var bar = "ProteinBar";
 
 function addElementToBeginningOfArray(array, element) {
   var newArray = array
-  newArray[0] = element
+  newArray.unshift(element)
   return newArray;
 }
 
