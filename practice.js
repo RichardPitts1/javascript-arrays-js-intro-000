@@ -18,3 +18,6 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array
 }
 
+console.log(addElementToBeginningOfArray(chocolateBars, bar))
+
+console.log(chocolateBars);
