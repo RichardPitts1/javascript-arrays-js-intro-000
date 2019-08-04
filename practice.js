@@ -6,8 +6,8 @@ function addElementToBeginningOfArray(array, element) {
   return [bar, ...chocolateBars];
 }
 
-console.log(addElementToBeginningOfArray(chocolateBars, bar));
-console.log(chocolateBars);
+// console.log(addElementToBeginningOfArray(chocolateBars, bar));
+// console.log(chocolateBars);
 
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
@@ -15,10 +15,18 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
   return array
 }
 
-console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, bar));
+// console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, bar));
+
+// console.log(chocolateBars);
+
+
+
+function addElementToBeginningOfArray(array, element) {
+ return [element, ...array];
+}
+
+console.log(addElementToBeginningOfArray(chocolateBars, bar));
 
 console.log(chocolateBars);
 
 
-
-function 
