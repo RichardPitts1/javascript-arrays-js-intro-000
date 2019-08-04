@@ -18,3 +18,7 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 console.log(destructivelyAddElementToBeginningOfArray(chocolateBars, bar));
 
 console.log(chocolateBars);
+
+
+
+function 
