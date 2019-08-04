@@ -7,7 +7,7 @@ function addElementToBeginningOfArray(array, element) {
   return x;
 }
 
-console.log(chocolateBars));
+console.log(chocolateBars);
 
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
