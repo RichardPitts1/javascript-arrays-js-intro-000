@@ -6,6 +6,7 @@ function addElementToBeginningOfArray(array, element) {
   var x = array.unshift(element);
   return x;
 }
+console.log(addElementToBeginningOfArray(chocolateBars, bar))
 
 console.log(chocolateBars);
 
